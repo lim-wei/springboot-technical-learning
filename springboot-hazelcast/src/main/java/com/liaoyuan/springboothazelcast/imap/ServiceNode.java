@@ -19,7 +19,7 @@ public class ServiceNode {
         HazelcastInstance ins = Hazelcast.newHazelcastInstance();
 
         // 从集群中读取Map实例
-        Map<Integer, String> map = ins.getMap("default map");
+        Map<Integer, String> map = ins.getMap("strawHatPirates");
 
         // 向集群中添加数据
         map.put(1, "Luffy");
